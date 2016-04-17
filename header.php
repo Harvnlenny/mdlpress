@@ -57,14 +57,20 @@
 	</header><!-- #masthead -->
 
 	<div class="mdl-layout__drawer">
-		<span class="mdl-layout-title">Title</span>
-		<nav class="mdl-navigation">
-			<a class="mdl-navigation__link" href="">Link</a>
-			<a class="mdl-navigation__link" href="">Link</a>
-			<a class="mdl-navigation__link" href="">Link</a>
-			<a class="mdl-navigation__link" href="">Link</a>
-		</nav>
-		</div>
+	  <span class="mdl-layout-title"><?php bloginfo( 'name' ); ?></span>
+	  <?php
+			$args = array(
+		        'theme_location' => 'drawer',
+		        'container'       => 'nav',
+		        'items_wrap' => '%3$s',
+		        'container_class' => 'mdl-navigation',
+				'walker' => new MDLWP_Nav_Walker()
+			);
+			if (has_nav_menu('drawer')) {
+			       wp_nav_menu($args);
+			    }
+		?>
+	</div>
 
 	<main class="mdl-layout__content">
 
