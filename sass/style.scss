@@ -22,6 +22,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 @import "material-design-lite";
 
+.site-content {
+    @extend .mdl-grid;
+}
+
+.content-area {
+    @extend .mdl-cell, .mdl-cell--9-col;
+}
+
+.widget-area {
+    @extend .mdl-cell, .mdl-cell--3-col;
+}
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
