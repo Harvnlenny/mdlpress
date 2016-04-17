@@ -1,2 +1,2 @@
-// bootstrap bower package scripts
-//= include ../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js
+// MDL bower package scripts
+//= include ../bower_components/material-design-lite/material.min.js
