@@ -86,6 +86,9 @@ options.sass = {
   sourceComments: 'map',
   precision: 10,
   //imagePath: 'assets/img',
+  includePaths: [
+    config.bowerDir + '/material-design-lite/src'
+  ]
 };
 options.autoprefixer = {
   map: true
