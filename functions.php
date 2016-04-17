@@ -130,6 +130,11 @@ function mdlpress_scripts() {
 add_action( 'wp_enqueue_scripts', 'mdlpress_scripts' );
 
 /**
+ * Custom Walker Menu for Material Design Lite.
+ */
+require get_template_directory() . '/inc/nav-walker.php';
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
