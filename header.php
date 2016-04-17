@@ -30,11 +30,10 @@
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
-			<span class="mdl-layout-title">Title</span>
 
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title mdl-layout-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
-				<span class="mdl-layout-title">Title</span>
+				<span class="site-title mdl-layout-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 
 			<?php endif; ?>
 		</div><!-- .site-branding -->
