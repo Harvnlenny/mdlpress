@@ -121,10 +121,6 @@ function mdlpress_scripts() {
 	wp_enqueue_style( 'material-icons', '//fonts.googleapis.com/icon?family=Material+Icons' );
 
 
-	wp_enqueue_script( 'mdlpress-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'mdlpress-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
 		wp_enqueue_script( 'mdl-js', get_template_directory_uri() . '/js/dist/scripts.min.js', array(), '1.0.0', true );
 
 
@@ -138,11 +134,6 @@ add_action( 'wp_enqueue_scripts', 'mdlpress_scripts' );
  * Custom Walker Menu for Material Design Lite.
  */
 require get_template_directory() . '/inc/nav-walker.php';
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
