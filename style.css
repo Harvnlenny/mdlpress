@@ -11783,7 +11783,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 /* SNACKBAR */
 /* TOOLTIP */
 /* line 25, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-.mdl-grid, .site-content {
+.mdl-grid {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11797,11 +11797,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
       -ms-flex-align: stretch;
           align-items: stretch; }
   /* line 31, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-grid.mdl-grid--no-spacing, .mdl-grid--no-spacing.site-content {
+  .mdl-grid.mdl-grid--no-spacing {
     padding: 0; }
 
 /* line 36, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-.mdl-cell, .content-area, .widget-area {
+.mdl-cell {
   box-sizing: border-box; }
 
 /* line 41, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -11829,7 +11829,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
           align-self: stretch; }
 
 /* line 57, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-.mdl-grid.mdl-grid--no-spacing > .mdl-cell, .mdl-grid--no-spacing.site-content > .mdl-cell, .mdl-grid.mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing.site-content > .content-area, .mdl-grid.mdl-grid--no-spacing > .widget-area, .mdl-grid--no-spacing.site-content > .widget-area {
+.mdl-grid.mdl-grid--no-spacing > .mdl-cell {
   margin: 0; }
 
 /* line 63, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -11918,14 +11918,14 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 
 @media (max-width: 479px) {
   /* line 95, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-grid, .site-content {
+  .mdl-grid {
     padding: 8px; }
   /* line 99, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell, .content-area, .widget-area {
+  .mdl-cell {
     margin: 8px;
     width: calc(100% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell, .mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing > .widget-area {
+    .mdl-grid--no-spacing > .mdl-cell {
       width: 100%; }
   /* line 105, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
   .mdl-cell--hide-phone {
@@ -12019,11 +12019,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-cell--2-col-phone.mdl-cell--2-col-phone {
       width: 50%; }
   /* line 118, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell--3-col, .widget-area,
+  .mdl-cell--3-col,
   .mdl-cell--3-col-phone.mdl-cell--3-col-phone {
     width: calc(75% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell--3-col, .mdl-grid--no-spacing > .widget-area, .mdl-grid--no-spacing >
+    .mdl-grid--no-spacing > .mdl-cell--3-col, .mdl-grid--no-spacing >
     .mdl-cell--3-col-phone.mdl-cell--3-col-phone {
       width: 75%; }
   /* line 125, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12067,11 +12067,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-cell--8-col-phone.mdl-cell--8-col-phone {
       width: 100%; }
   /* line 125, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell--9-col, .content-area,
+  .mdl-cell--9-col,
   .mdl-cell--9-col-phone.mdl-cell--9-col-phone {
     width: calc(100% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell--9-col, .mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing >
+    .mdl-grid--no-spacing > .mdl-cell--9-col, .mdl-grid--no-spacing >
     .mdl-cell--9-col-phone.mdl-cell--9-col-phone {
       width: 100%; }
   /* line 125, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12103,10 +12103,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {
     margin-left: calc(25% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--1-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {
       margin-left: 25%; }
   /* line 132, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12114,10 +12111,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {
     margin-left: calc(50% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--2-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {
       margin-left: 50%; }
   /* line 132, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12125,23 +12119,20 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {
     margin-left: calc(75% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--3-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {
       margin-left: 75%; } }
 
 @media (min-width: 480px) and (max-width: 839px) {
   /* line 142, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-grid, .site-content {
+  .mdl-grid {
     padding: 8px; }
   /* line 146, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell, .content-area, .widget-area {
+  .mdl-cell {
     margin: 8px;
     width: calc(50% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell, .mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing > .widget-area {
+    .mdl-grid--no-spacing > .mdl-cell {
       width: 50%; }
   /* line 152, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
   .mdl-cell--hide-tablet {
@@ -12235,11 +12226,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {
       width: 25%; }
   /* line 165, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell--3-col, .widget-area,
+  .mdl-cell--3-col,
   .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {
     width: calc(37.5% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell--3-col, .mdl-grid--no-spacing > .widget-area, .mdl-grid--no-spacing >
+    .mdl-grid--no-spacing > .mdl-cell--3-col, .mdl-grid--no-spacing >
     .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {
       width: 37.5%; }
   /* line 165, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12283,11 +12274,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {
       width: 100%; }
   /* line 172, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell--9-col, .content-area,
+  .mdl-cell--9-col,
   .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {
     width: calc(100% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell--9-col, .mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing >
+    .mdl-grid--no-spacing > .mdl-cell--9-col, .mdl-grid--no-spacing >
     .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {
       width: 100%; }
   /* line 172, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12319,10 +12310,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {
     margin-left: calc(12.5% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--1-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {
       margin-left: 12.5%; }
   /* line 179, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12330,10 +12318,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {
     margin-left: calc(25% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--2-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {
       margin-left: 25%; }
   /* line 179, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12341,10 +12326,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {
     margin-left: calc(37.5% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--3-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {
       margin-left: 37.5%; }
   /* line 179, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12352,10 +12334,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {
     margin-left: calc(50% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--4-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {
       margin-left: 50%; }
   /* line 179, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12363,10 +12342,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {
     margin-left: calc(62.5% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--5-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {
       margin-left: 62.5%; }
   /* line 179, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12374,10 +12350,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {
     margin-left: calc(75% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--6-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {
       margin-left: 75%; }
   /* line 179, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12385,23 +12358,20 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {
     margin-left: calc(87.5% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--7-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {
       margin-left: 87.5%; } }
 
 @media (min-width: 840px) {
   /* line 189, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-grid, .site-content {
+  .mdl-grid {
     padding: 8px; }
   /* line 193, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell, .content-area, .widget-area {
+  .mdl-cell {
     margin: 8px;
     width: calc(33.3333333333% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell, .mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing > .widget-area {
+    .mdl-grid--no-spacing > .mdl-cell {
       width: 33.3333333333%; }
   /* line 199, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
   .mdl-cell--hide-desktop {
@@ -12495,11 +12465,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {
       width: 16.6666666667%; }
   /* line 212, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell--3-col, .widget-area,
+  .mdl-cell--3-col,
   .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {
     width: calc(25% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell--3-col, .mdl-grid--no-spacing > .widget-area, .mdl-grid--no-spacing >
+    .mdl-grid--no-spacing > .mdl-cell--3-col, .mdl-grid--no-spacing >
     .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {
       width: 25%; }
   /* line 212, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12543,11 +12513,11 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
     .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {
       width: 66.6666666667%; }
   /* line 212, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-  .mdl-cell--9-col, .content-area,
+  .mdl-cell--9-col,
   .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {
     width: calc(75% - 16px); }
     /* line 73, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid--no-spacing > .mdl-cell--9-col, .mdl-grid--no-spacing > .content-area, .mdl-grid--no-spacing >
+    .mdl-grid--no-spacing > .mdl-cell--9-col, .mdl-grid--no-spacing >
     .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {
       width: 75%; }
   /* line 212, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12579,10 +12549,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {
     margin-left: calc(8.3333333333% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--1-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {
       margin-left: 8.3333333333%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12590,10 +12557,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {
     margin-left: calc(16.6666666667% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--2-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {
       margin-left: 16.6666666667%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12601,10 +12565,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {
     margin-left: calc(25% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--3-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {
       margin-left: 25%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12612,10 +12573,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {
     margin-left: calc(33.3333333333% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--4-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {
       margin-left: 33.3333333333%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12623,10 +12581,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {
     margin-left: calc(41.6666666667% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--5-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {
       margin-left: 41.6666666667%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12634,10 +12589,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {
     margin-left: calc(50% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--6-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {
       margin-left: 50%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12645,10 +12597,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {
     margin-left: calc(58.3333333333% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--7-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {
       margin-left: 58.3333333333%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12656,10 +12605,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {
     margin-left: calc(66.6666666667% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--8-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--8-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--8-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {
       margin-left: 66.6666666667%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12667,10 +12613,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {
     margin-left: calc(75% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--9-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--9-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--9-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {
       margin-left: 75%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12678,10 +12621,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {
     margin-left: calc(83.3333333333% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--10-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--10-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--10-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {
       margin-left: 83.3333333333%; }
   /* line 219, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
@@ -12689,10 +12629,7 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {
     margin-left: calc(91.6666666667% + 8px); }
     /* line 85, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/bower_components/material-design-lite/src/grid/_grid.scss */
-    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--11-offset, .mdl-grid--no-spacing.site-content > .mdl-cell--11-offset,
-    .mdl-grid.mdl-grid--no-spacing >
-    .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop,
-    .mdl-grid--no-spacing.site-content >
+    .mdl-grid.mdl-grid--no-spacing > .mdl-cell--11-offset, .mdl-grid.mdl-grid--no-spacing >
     .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {
       margin-left: 91.6666666667%; } }
 
@@ -12771,9 +12708,6 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
   margin-left: auto;
   margin-right: auto; }
 
-/*--------------------------------------------------------------
-# Layouts
---------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
@@ -12886,6 +12820,12 @@ embed,
 iframe,
 object {
   max-width: 100%; }
+
+/* line 18, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/media/_media.scss */
+img {
+  height: auto;
+  max-width: 100%;
+  display: block; }
 
 /*--------------------------------------------------------------
 ## Captions
