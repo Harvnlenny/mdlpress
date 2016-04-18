@@ -12755,30 +12755,35 @@ _:-ms-input-placeholder, :root .mdl-slider.mdl-slider.is-upgraded {
 ## Posts and pages
 --------------------------------------------------------------*/
 /* line 1, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+.site {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word; }
+
+/* line 6, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .sticky {
   display: block; }
 
-/* line 5, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 10, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .hentry {
   margin: 0 0 1.5em; }
 
-/* line 9, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 14, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .byline,
 .updated:not(.published) {
   display: none; }
 
-/* line 14, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 19, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .single .byline,
 .group-blog .byline {
   display: inline; }
 
-/* line 19, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 24, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0; }
 
-/* line 25, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
+/* line 30, /Applications/MAMP/htdocs/wordpress/wp-content/themes/mdlpress/sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
